@@ -53,3 +53,9 @@ fun FormDataDiri(modifier: Modifier) {
             label = { Text("Nama") }
         )
 
+        OutlinedTextField(
+            value = textAlamat,
+            onValueChange = { textAlamat = it },
+            label = { Text("Alamat") }
+        )
+
